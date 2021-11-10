@@ -1,0 +1,30 @@
+{
+  "name": "accessibility-101",
+  "version": "1.0.0",
+  "description": "Checklist basico de Accessibility para FEDs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fee-atcmx-acessibility/accesibility.git"
+  },
+  "author": "Luz De Leon - Wendy Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fee-atcmx-acessibility/accesibility/issues"
+  },
+  "homepage": "https://github.com/fee-atcmx-acessibility/accesibility#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "webpack": "^5.62.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "http-serve": "^1.0.1",
+    "http-server": "^14.0.0"
+  }
+}
